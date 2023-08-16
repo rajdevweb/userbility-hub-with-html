@@ -78,13 +78,7 @@ h3{
   max-width: 1500px;
   margin-inline: auto;
   padding-inline: var(--padding-inline-section);
-  
   overflow: hidden;
-}
-.flex{
-  display: flex;
-  align-items: center;
- 
 }
 .hover-link{
   color: var(--royalblue);
@@ -106,9 +100,10 @@ border: 1px solid #b5c1ca;
 border-radius: 6px;
 font-weight: 500;
 color: var(--mateblack) !important;
-padding: 10px 15px;
+padding: 3px 14px;
 transition: 0.2s ease-in;
 text-decoration: none;
+
 }
 .secondary-btn:hover{
   color:#2294ed !important;
@@ -122,7 +117,7 @@ text-decoration: none;
   border-radius: 6px;
   font-weight: 500;
   color: var(--textmatewhite) !important;
-  padding: 10px 15px;
+  padding: 3px 15px;
   transition: 0.2s ease-in;
   text-decoration: none;
   text-align: center;
@@ -135,7 +130,7 @@ text-decoration: none;
 /* utility class end */
 .top-banner{
   background-color: #008bd6;
-  background-image: url(image/top-banner-1.png);
+  background-image:url(image/top-banner-1.png);
   background-size: 300px;
   background-blend-mode: lighten;
   
@@ -156,7 +151,7 @@ text-decoration: none;
 .nav-links ul{
   justify-content: end;
   gap: 40px;
-  margin: 0;
+  margin: 3px;
 }
 .nav-toggle{
   display: none;
